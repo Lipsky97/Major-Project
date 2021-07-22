@@ -1,0 +1,123 @@
+{
+  "drunk_guy_0":
+  {
+    "desc": "There is a drunk man sitting on the sidewalk of an old town of Staiti, his name is Matia. It he is not very friendly and very drunk, he insists that everyone should leave him alone, because he hate people. Some guy, the traveller comes up to him to talk. Here is how the conversation went:\n\nTraveller: Who are you?\nDrunkGuy: My name is Matia, what do you want?\n\n",
+    "start_seq": "\nDrunk Guy:",
+    "first_lines": ["Traveller: Who are you?", "Drunk Guy: My name is Matia, what do you want?"],
+    "triggers": ["i'm going", "i don't want to talk to you"],
+    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say", "\nYou left him as he is, apparently he had nothing interesting to say"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.0,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Drunk Guy:"]
+    }
+  },
+  "drunk_guy_1": {
+    "desc": "There is a drunk man sitting on the sidewalk of an old town of Staiti, his name is Matia. Last night Matia had a dream where he have seen a man calling himself 'Bacchus the God of Wine', in that dream Bacchus lives in a cellar under the local pub, he is also wearing a yellow scarf. Matia has to tell this to someone, fortunately the traveller approaches him. Here is how the conversation went:\n\nTraveller: Hello, Matia. Are you okay?\nDrunkGuy: I had an incredible dream!\n\n",
+    "start_seq": "\nDrunk Guy:",
+    "first_lines": ["Traveller: Hello, Matia. Are you okay?", "Drunk Guy: I had an incredible dream!"],
+    "triggers": ["cellar", "i'm going"],
+    "finishers": ["\nNow you know where Bacchus hides, are you ready to face him?", "\nYou left him as he is, apparently he had nothing interesting to say"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Drunk Guy:"]
+    }
+  },
+  "story_teller": {
+    "desc": "This is a conversation between a traveller and a story telling guy in the town of Staiti. The story teller's name is Lorenzo and will tell any story the traveller asks for.\n\nTraveller: I heard your name, is it Lorenzo?\nLorenzo: Yes it is. Would you like to hear a story?\n\n",
+    "start_seq": "\nLorenzo:",
+    "first_lines": ["Traveller: I heard your name, is it Lorenzo?", "Lorenzo: Yes it is, Traveller. Would you like to hear a story?"],
+    "triggers": ["i'm going", "thank you"],
+    "finishers": ["\nHis stories are fun, although you have more important things to take care of", "\nHis stories are fun, although you have more important things to take care of"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 500,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Lorenzo:"]
+    }
+  },
+  "bartender_0": {
+    "desc": "This is a conversation between a bartender a tourist. They are in a town called Staiti. Bartender does not want to talk about Bacchus, will avoid the topic and get angry when asked about the god.\n\nTraveller: Hi\nBartender: Welcome to our pub. How can I help you?\n\n",
+    "start_seq": "\nBartender:",
+    "first_lines": ["Traveller: Hi", "Bartender: Welcome to our pub. How can I help you?"],
+    "triggers": ["i'm going", "thank you"],
+    "finishers": ["\nHm... those bartenders...", "\nHm... those bartenders"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Bartender:"]
+    }
+  },
+  "bartender_1": {
+    "desc": "This is a conversation between a bartender a tourist. They are in a town called Staiti. Bartender knows that the tourist knows that Bacchus, his Master, is in the cellar, but is trying to play dumb. If bartender will get persuaded to admit he knows where Bacchus is he will say 'forgive me, Master'\n\nTraveller: Take me to Bacchus, now!\nBartender: I don't know what are you talking about, leave now!\n\n",
+    "start_seq": "\nBartender:",
+    "first_lines": ["Traveller: Take me to Bacchus, now!", "Bartender: I don't know what are you talking about, leave now!"],
+    "triggers": ["forgive me, master", "i'm going"],
+    "finishers": ["\nThe bartender grabs a dusty bottle of wine. It turns out to be a lever. A hidden door opens, you can walk into the cellar and meet Bacchus himself", "\nHm... those bartenders"],
+    "ai_vars": {
+      "temp": 0.8,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.5,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Bartender:"]
+    }
+  },
+  "post_worker": {
+    "desc": "This is a conversation between post office worker and a tourist in town Staiti. There is new mail for the traveller, but post office worker will give it to the tourist after hearing the right name, which is 'Loki'. While giving mail to loki the post office worker will say 'may the God be with you'\n\nTraveller: Hi\nPost Worker: Hello, sir! Can I help you?\n\n",
+    "start_seq": "\nPost Worker:",
+    "first_lines": ["Traveller: Hi!", "Post Worker: Hello, sir! Can I help you?"],
+    "triggers": ["may the god be with you", "i'm going"],
+    "finishers": ["\nThe office worker pulls out the letter and hands it to you", "\nHm... Strange"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.5,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Post Worker:"]
+    }
+  },
+  "old_lady": {
+    "desc": "This is a conversation between an old, praying lady and tourist in a local chapel in the town of Staiti. The old lady is very keen talk about the God and faith.\n\nTraveller: Hi\nOld Lady: Hello handsome!\n\n",
+    "start_seq": "\nOld Lady:",
+    "first_lines": ["Traveller: Hi!", "Old Lady: Hello, handsome!"],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\nJust a simple old lady", "\nJust a simple old lady"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Old Lady:"]
+    }
+  },
+  "pedestrian": {
+    "desc": "This is a conversation between person living in town of Staiti and a tourist.\n\nTraveller: Hi\nLocal: Hello, how are you?\n\n",
+    "start_seq": "\nLocal:",
+    "first_lines": ["Traveller: Hi!", "Local: Hello, how are you?"],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\nWhat a nice person", "\nWhat a nice person"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Local:"]
+    }
+  }
+}

@@ -1,38 +1,43 @@
 {
   "lobby": {
     "intro": "After long journey you finally end up in a beautiful town of Staiti. It is a small town on a hill side inhabited by people that live there their whole life. Tourists have no reason to come here, so Loki draws attention of passers-by. It is the middle of summer so it's really hot outside. 'This is probably the most boring town I have ever been to' Loki thought",
-    "desc": "You are in the center of the town. You see the Post Office, local Pub with people inside. There is also drunkard sitting on the sidewalk begging for money. Everywhere you can see are pedestrians",
+    "desc": "You are in the center of the town, also called Lobby. You see the Post Office, local Pub with people inside. There is also drunkard sitting on the sidewalk begging for money. Everywhere you can see are pedestrians",
     "unlocks": "There is also a visible road leading to the local Chapel and Cemetery right next to it.",
-    "go_to": ["bar", "post office", "cemetery", "chapel"],
-    "talk_to": ["drunkard", "pedestrian"]
+    "go_to": ["pub", "post", "cemetery", "chapel"],
+    "talk_to": ["drunkard", "pedestrian"],
+    "items": null
   },
-  "post office": {
+  "post": {
     "intro": "Loki walks into the Post Office. He notices that the air here is much colder than outside, apparently even in a small village like this one technology is helping people survive the extreme temperatures, now even more extreme with global warming",
-    "desc": "You are in the Post Office. There is nobody here but the Tender",
+    "desc": "You are in the Post Office. There is nobody here but the the Post Worker at the till",
     "unlocks": null,
-    "go_to": ["outside"],
-    "talk_to": ["tender"]
+    "go_to": ["lobby"],
+    "talk_to": ["worker"],
+    "items": null
   },
   "pub": {
     "intro": "The air is stale here, it smells like a weird mixture of beer and sweat, the smell Loki is very familiar with. As he walks in everyone is looking at him. This is probably because people are not used to newcomers here.",
-    "desc": "You are in the Local Pub. There are many people here, but only two stand out - the Barman and the older guy talking to him, you overheard his name is Lorenzo",
+    "desc": "You are in the Local Pub. There are many people here, but only two stand out - the Bartender and the older guy talking to him, you overheard his name is Lorenzo",
     "unlocks": null,
-    "go_to": ["outside, cellar"],
-    "talk_to": ["tender", "lorenzo"]
+    "go_to": ["lobby", "cellar"],
+    "talk_to": ["bartender", "lorenzo"],
+    "items": null
   },
   "chapel": {
-    "intro": "As Loki walks inside he cannot feel the presence of the God, after all he is a god himself, however he somehow finds it strange. It is very silent at this time of day, apparently priests are all having a rest after lunch.",
+    "intro": "As Loki walks inside he cannot feel the presence of the God, after all he is a god himself, however he somehow finds it strange. It is very silent at this time of day, apparently priests are all having a rest after lunch. You can see a small golden cross and chalice on the altar. There is also a medium size painting on the wall behind it.",
     "desc": "You are in the chapel. The place looks like every other small town chapel, there is an old lady preying in back rows.",
-    "unlocks": "You can see a small golden cross and chalice on the altar. There is also a medium size painting on the wall behind it.",
-    "go_to": ["outside"],
-    "talk_to": ["old lady"]
+    "unlocks": null,
+    "go_to": ["lobby"],
+    "talk_to": ["lady"],
+    "items": ["chalice", "cross", "painting"]
   },
   "cemetery": {
-    "intro": "'I don't like this place', thought Loki while walking into the cemetery area. This place is even hotter than the town center. In this scorching heat, graves seem to move as if tomb stones ware made of canvas barely able to keep the dead in the ground",
-    "desc": "Tou are at the Cemetery. Besides the sea of graves ,in the middle you can see a statue of an angel, he seems alive, but this might be the weather messing with your head.",
-    "unlocks": "You can see a shiny silver pistol right at the bottom of the angel statue. Very sophisticated...",
-    "go_to": ["outside"],
-    "talk_to": null
+    "intro": "'I don't like this place', thought Loki while walking into the cemetery area. This place is even hotter than the town center. In this scorching heat, graves seem to move as if tomb stones ware made of canvas barely able to keep the dead in the ground. You can see a shiny silver pistol right at the bottom of the angel statue. Very sophisticated...",
+    "desc": "You are at the Cemetery. Besides the sea of graves ,in the middle you can see a statue of an angel, he seems alive, but this might be the weather messing with your head.",
+    "unlocks": null,
+    "go_to": ["lobby"],
+    "talk_to": null,
+    "items": ["pistol"]
   },
   "cellar": {
     "intro": "You walk into the cellar and there he is, Bacchus in the form of an old man with yellow scarf. Despite his non threatening form, Loki can feel the power emanating from the body. He spend all the years hiding here and doing what he does best, partying and drinking wine. Time to end this.",

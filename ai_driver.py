@@ -9,7 +9,7 @@ def chat_bot(npc_name):
     # specific to the transformer architecture, instead of sending queries one by one each human/AI response is
     # appended to give the AI context for the next answer
 
-    with open('game_files/characters.json') as chars:
+    with open('game_files/characters/staiti.json') as chars:
         characters = json.load(chars)
 
     openai.api_key = api_key
@@ -30,14 +30,12 @@ def chat_bot(npc_name):
             print("You didn't say anything, say something")
             continue
 
-        if characters[npc_name]["triggers"][0] in player_input:
+        if characters[npc_name]["triggers"][0] in player_input.lower():
             print(characters[npc_name]["finishers"][0])
-            print("Demo finished, more to come!")
-            break
-        if characters[npc_name]["triggers"][1] in player_input:
+            return True
+        if characters[npc_name]["triggers"][1] in player_input.lower():
             print(characters[npc_name]["finishers"][1])
-            print("Game Over")
-            break
+            return False
 
         prompt += "Traveller: " + player_input + start_sequence
 
@@ -57,6 +55,9 @@ def chat_bot(npc_name):
 
         if text != "":
             print(start_sequence + text)
+            if characters[npc_name]["triggers"][0] in text.lower():
+                print(characters[npc_name]["finishers"][0])
+                return True
             prompt += text + "\n"
         else:
             print("I have no answer for that")
