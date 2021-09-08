@@ -1,0 +1,152 @@
+{
+  "cafee_person": {
+    "desc": "Town of alexandria, year 2021. A tourist is sitting in the local cafee and talking to his friends. Suddenly some strange guy called Traveller comes up and starts a conversation, here is how it went:\n\nTraveller: Hi\nTourist: Hello, how are you?\n\n",
+    "start_seq": "\nTourist:",
+    "first_lines": ["Traveller: Hi", "Tourist: Hello, how are you?"],
+    "triggers": ["i'm going", "i don't want to talk to you"],
+    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.0,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Tourist:"]
+    }
+  },
+  "library_crazy_guy": {
+    "desc": "This is a conversation in Library of Alexandria, between a crazy person an the Traveller. The crazy person knows that the god of moon, Chonsu is hiding in slums among drug addicts. Chonsu is pale, has long hair and always wears a hood but will say it only if asked.\n\nTraveller: Who are you?\nCrazy Person: I'm the prince of persia, although I don't remember my name\n\n",
+    "start_seq": "\nCrazy Person:",
+    "first_lines": ["Traveller: Who are you?", "Crazy Person: I'm the prince of persia, although I don't remember my name"],
+    "triggers": ["slums", "i'm going"],
+    "finishers": ["\nSo now you know, you are looking for the God of Moon Chonsu, he is hiding somewhere in nearby slums\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.8,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.5,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Crazy Person:"]
+    }
+  },
+  "library_person": {
+    "desc": "Town of alexandria, year 2021. Peter is sitting in the local library and reading a book. Suddenly some strange guy called Traveller comes up and starts a conversation, here is how it went:\n\nTraveller: Hi\nPeter: Hello, I'm Peter, how can I help you?\n\n",
+    "start_seq": "\nPeter:",
+    "first_lines": ["Traveller: Hi", "Peter: Hello, I'm Peter, how can I help you?"],
+    "triggers": ["i'm going", "i don't want to talk to you"],
+    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.0,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Peter:"]
+    }
+  },
+  "librarian": {
+    "desc": "This is a conversation that happened between a stranger and librarian working in the library of alexandria in 2021.\n\nTraveller: Hi?\nLibrarian: Hello sir, how can I help you?\n\n",
+    "start_seq": "\nLibrarian:",
+    "first_lines": ["Traveller: Hi", "Librarian: Hello sir, how can I help you?"],
+    "triggers": ["i'm going", "i don't want to talk to you"],
+    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.0,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Librarian:"]
+    }
+  },
+  "slums_person": {
+    "desc": "There is a drunk man sitting on the sidewalk of an old town of Alexandria, his name is Youssef. It he is not very friendly and very drunk, he insists that everyone should leave him alone, because he hate people. Some guy, the traveller comes up to him to talk. Youssef insists to sell him some heroin if he succeeds he will say 'there you go mate'. Here is how the conversation went:\n\nTraveller: Hi\nYoussef: Hey buddy, wanna buy some heroin?\n\n",
+    "start_seq": "\nYoussef:",
+    "first_lines": ["Traveller: Hi", "Youssef: Hey buddy, wanna buy some heroin?"],
+    "triggers": ["there you go mate", "i'm going"],
+    "finishers": ["\nYoussef is showing you a small brown ball, the size of a fingernail\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.0,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Youssef:"]
+    }
+  },
+  "chonsu": {
+    "desc": "This is a conversation between Chonsu, the god of moon, and Loki, the god of lies. Chonsu knows who Loki is and says that everyone heard about him coming to town. Anubis also knows and he is hiding where he feels like home. Chonsu quite drunk and will give a bottle of moonlight to Loki for free. When Loki agrees to accept the gift Chonsu will say 'this should keep you alive'\n\nTraveller: Hey Chon, or shall I call you Chonsu?\nChonsu: Oh how nice, you're finally here!\n\n",
+    "start_seq": "\nChonsu:",
+    "first_lines": ["Traveller: Hey Chon, or shall I call you Chonsu", "Drunk Guy: Oh how nice, you're finally here!"],
+    "triggers": ["this should keep you alive", "i'm going"],
+    "finishers": ["\nChonsu pulls out an empty bottle and with little effort he materialized some kind of shiny liquid inside\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Chonsu:"]
+    }
+  },
+  "curator": {
+    "desc": "The curator of Citadel of Alexandria suddenly sees the Traveller walking out of the sewer right in the middle of his citadel. He is angry as the man shouldn't be there. He is asking him politely to go out, otherwise he will call the police. If the Traveller is nice and curator will like him he will tell the traveller that local mafia has embalming oil to sell. If the Traveller will be mean and refuse to listen, the curator will say 'I'm calling the police'. This is how the conversation went:\n\nTraveller: Who are you?\n Curator: I'm the curator of this place and you shouldn't be here! Leave at once!\n\n",
+    "start_seq": "\nCurator:",
+    "first_lines": ["Traveller: Who are you?", "Curator: I'm the curator of this place and you shouldn't be here! Leave at once!"],
+    "triggers": ["embalming oil", "i'm calling the police"],
+    "finishers": ["\nYou walk out of the building, you know that local mafia has embalming oil, it might shield you from Anubis' touch\n", "\nPolice shows up and kicks you out, you are in front of the citadel building\n"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Curator:"]
+    }
+  },
+  "baroness": {
+    "desc": "This is a conversation between local mafia leader and the Traveller. Mafia leader is a fat woman and can provide him with embalming oil, but has to be persuaded. If she is persuaded she will say 'take it and destroy him'. This is how the conversation went:\n\nTraveller: Hi\n Baroness: Who are you and what do you want? Be quick, I have important matter to attend\n\n",
+    "start_seq": "\nBaroness:",
+    "first_lines": ["Traveller: Hi", "Baroness: Who are you and what do you want? Be quick, I have important matter to attend"],
+    "triggers": ["take it and destroy him", "i'm going"],
+    "finishers": ["\nShe pulls out a flask and hands it to you\n", "\nIt didn't work out, maybe try again\n"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Baroness:"]
+    }
+  },
+  "aquarium_person": {
+    "desc": "This is a conversation between the Traveller and a head of the family just visiting the aquarium of alexandria. This is how the conversation went:\n\nTraveller: Hi\nMan: Hi, can I help you somehow?\n\n",
+    "start_seq": "\nMan:",
+    "first_lines": ["Traveller: Hi", "Man: Hi, can I help you somehow?"],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.7,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.0,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Man:"]
+    }
+  },
+  "lamplighter": {
+    "desc": "This is a conversation between lamplighter and the Traveller. Lamplighter asked about Anubis will say that embalming oil is able to shield one from his powers. Local mafia has the oil. This is how the conversation went:\n\nTraveller: Hi\n Lamplighter: Hello, Traveller. May I know why are you here?\n\n",
+    "start_seq": "\nLamplighter:",
+    "first_lines": ["Traveller: Hi", "Lamplighter: Hello, Traveller. May I know why are you here?"],
+    "triggers": ["embalming oil", "i'm going"],
+    "finishers": ["\nNow you know you can use embalming oil\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Lamplighter:"]
+    }
+  }
+}

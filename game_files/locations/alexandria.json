@@ -1,0 +1,98 @@
+{
+  "station": {
+    "intro": "Traveller just got out of the train and walked out of the station through the main gate. He sees this famous beautiful city of Alexandria. His sight is being drown to an incredible monument that is right in front of the building he just walked out of. Loki can see people passing by, a lot of chatter. 'Another hot place, I'm boiling here' said Loki.",
+    "desc": "You are right in front of the Station. You see a Cafee with people inside and the Monument.",
+    "unlocks": "There is also a road leading to the Alexandrian Library.",
+    "go_to": ["cafee", "monument", "library"],
+    "talk_to": ["pedestrian", "seller"],
+    "items": null
+  },
+  "cafee": {
+    "intro": "Loads of laughter and smiley faces. Something that does not happen often in Loki's life. He is used to drunk, shady people in a pub filled with cigarette smoke",
+    "desc": "You walk into the Cafee, you can see that it is filled with tourists. You can talk to people in there, but it doesn't look like they are going to know anything",
+    "unlocks": null,
+    "go_to": ["station"],
+    "talk_to": ["person"],
+    "items": null
+  },
+  "library": {
+    "intro": "Loki enters the largest building. 'It is beautiful, it's a shame I was born after the first one got destroyed by that maniac Nero', Loki sighted",
+    "desc": "On the way to the library Loki saw some Slums. The Alexandrian Library itself is a large building, however you see some strange old guy staring at you since you came in.",
+    "unlocks": "In front of the library is an opened sewer canal, wonder what is inside.",
+    "go_to": ["sewer", "slums", "station"],
+    "talk_to": ["guy", "person"],
+    "items": null
+  },
+  "monument": {
+    "intro": "Right in the front is laying a book, it caught Loki's eye as it has some strange glow to it.",
+    "desc": "It is a large monument with Egyptian flags on it, nothing out of ordinary.",
+    "unlocks": null,
+    "go_to": ["station"],
+    "talk_to": null,
+    "items": ["book"]
+  },
+  "slums": {
+    "intro": "It is a horrible place. Around Loki can see laying people, probably on drugs. It smells of death and piss out here. It is a pain to look at people in this state, though Loki knew he might find something useful in this place",
+    "desc": "Slums are a large area in town, it is hard to find someone in here if you don't know what to look for, you can talk to people here",
+    "unlocks": "There is one man that fits description though. It is a young man, chatting to his comrades. He seems happy though definitely intoxicated. His friends call him 'Chon'",
+    "go_to": ["library"],
+    "talk_to": ["chon", "person"],
+    "items": null
+  },
+  "sewer": {
+    "intro": "The air is stale here and much colder than on the surface, though it really stinks. Loki didn't want to spend much time in here. Suddenly he hears meowing right next to his leg. It is a Sand Cat. It has a red bow on his neck. 'Seems like someone didn't like their birthday present and he ended up in here' Loki thought.",
+    "desc": null,
+    "unlocks": "You are in a long tunnel. From here you can get to the Citadel on  the other side of basin, or get back to the Alexandrian Library",
+    "go_to": ["citadel", "library"],
+    "talk_to": null,
+    "items": null
+  },
+  "citadel": {
+    "intro": "Loki is in the building of citadel. You see some old guy with high hat rushing your way. Apparently you ended up in place you shouldn't be in. The guy looks like a dog with the long face and pointy ears... Could this be...",
+    "desc": null,
+    "unlocks": "There are a few things around the Citadel, you see a very fancy Restaurant, the building of Aquarium, a Funeral Home, and a Lighthouse",
+    "go_to": ["sewer", "restaurant", "funeral_home", "lighthouse", "aquarium"],
+    "talk_to": null,
+    "items": null
+  },
+  "lighthouse": {
+    "intro": "A tall building with the light on top, for some reason it is not electric, it is a bonfire. 'Really strange thing' thought Loki",
+    "desc": "You are next to the light house, you see a young person, probably the local Lamplighter, he even has the yellow jacket for better visibility. From here you can go to the top of the lighthouse and see from Catwalk or go back.",
+    "unlocks": null,
+    "go_to": ["catwalk", "citadel"],
+    "talk_to": ["lamplighter"],
+    "items": null
+  },
+  "catwalk": {
+    "intro": "As you get to the top you see the beautiful town of Alexandria. It really is majestic. It is almost 8pm so sun is slowly going towards the horizon. 'Closer to God, huh?' chuckled Loki 'I wonder if he sees what his angels are up to down here'.",
+    "desc": "The view is really breathtaking but there is nothing here.",
+    "unlocks": null,
+    "go_to": ["lighthouse"],
+    "talk_to": null,
+    "items": null
+  },
+  "restaurant": {
+    "intro": "It is an incredibly fancy restaurant. Only very wealthy people dine here. There are golden engravings on the walls and celling. Everywhere are expensive paintings, which look like they were taken away from some art gallery. In the middle of the you Loki spotted an elegant woman surrounded by bodyguards. She just finished talking to a peasant man. Seems like shes some kind of Baroness.",
+    "desc": "You can talk to the baroness, rest of the people don't seem interesting.",
+    "unlocks": null,
+    "go_to": ["citadel"],
+    "talk_to": ["baroness"],
+    "items": null
+  },
+  "funeral_home": {
+    "intro": "As Loki walked in, a strange feeling suddenly hit him. He didn't know what it is, but in the air he can smell old, moldy bandages and death. Unusual for a funeral house, as those guys try to seem as welcoming as they can. There is a large fireplace on the left with a vast collection of ash pokers right next to it. At the same second a toll man with a long, black walking stick came up to Loki. He feels older than he looks, just like a soul of a person that lived 1000 lives was squeezed into this more or less 30 year old body.",
+    "desc": null,
+    "unlocks": null,
+    "go_to": null,
+    "talk_to": null,
+    "items": null
+  },
+  "aquarium": {
+    "intro": "Incredible place holding creatures Loki haven't seen before in his life. As he walked it he immediately saw a big sign saying 'The magical flying fish, straight from sunny California'. Loki knew this is some kind of fraud. Flying fish went extinct long time ago. But when he went to see it, impossible happened. A real flock of flying fish right in front of him. This doesn't happen very often to someone who live as long has him, but this time Loki was truly amazed. However, after some observation he realized a faint magic aura around the fish. He surely wasn't the only god residing in Alexandria.",
+    "desc": "Some fish and a lot of people with children, you can talk to people or go back outside.",
+    "unlocks": null,
+    "go_to": ["citadel"],
+    "talk_to": ["person"],
+    "items": null
+  }
+}

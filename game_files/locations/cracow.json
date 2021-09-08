@@ -1,0 +1,138 @@
+{
+  "wawel": {
+    "intro": "As Loki is approaching the town of Cracow he can see more and more barricades on the road. Something is very wrong here. Right before the bridge leading into the city center Loki found the largest barricade blocking the road completely. There were people there, but not very friendly looking. So Loki had a choice. He could go a try to approach town from the river apparently called Vistula, or he could use his powers to turn into a person using their uniform and try and convince them he is one of their people. Would you like to use powers, or take the river route?",
+    "desc": null,
+    "unlocks": "You are in front of the Wawel Castle, from here you can hear screams and gunfire. On the site of the wall there is a cave entrance, but now it is blocked with brick wall, you can come closer to it.",
+    "go_to": ["cave", "market", "jubilat"],
+    "talk_to": null,
+    "items": null
+  },
+  "jail": {
+    "intro": "Loki observed the barricade people for a while, so he could spot all details of their uniform. They had a large cross on the right sleeve, black coat and military trousers. After enough observation Loki was ready to go undercover. He used magic to change his outfit to one matching theirs and approached the guard. \n\nGuard: Stop! Who are you?\nTraveller: I'm carrying an important note for your commander, it came right from Warsaw\nGuard: Right, show me your insignia first\n\nLoki did not expect that to happen, he did not have any and did not know how it might look like\n\nGuard: Boys! We have a spy over here!\n\n",
+    "desc": "You are in jail right beneath the Wawel Castle. You are locked in a cage. Around you can see a priest and a guard. They don't look very friendly.",
+    "unlocks": "An Angel appeared in the corner, he looks amused.",
+    "go_to": null,
+    "talk_to": ["priest", "guard", "angel"],
+    "items": null
+  },
+  "jubilat": {
+    "intro": "As Loki approached the river he saw a tree trunk tied to a post. It looks like some kind of hand-made canoe. Loki decided to use it.\n\nThe town looks like a warzone. Everywhere people with guns and uniforms similar to the ones that the barricade people had, some of them have guns. Loki could swear he saw some of them shooting civilians. After maybe 20 minutes a great castle started to emerge from behind the trees. As Loki approached the castle, he heard a loud hiss on his right side and a bullet missing his head. Immediately he jumped into the water to hide, but at this moment he knew that the attacker will wait for him there. One thing that seemed strange to him was the silencer the aggressor apparently used and the lack of any kind of alarm raised. The person that was shooting to him was hiding as much as he was. That means he might be an ally. Loki decided to approach the attacker. \n\nTraveller: Wait! We are on the same side!\nGuerrilla fighter: Are we now? Who are you?\nTraveller: I'm just a traveller, I am looking for a place to stay, I have nowhere to go!\nGuerrilla fighter: Is that right? Okay, come out of the water, I'll lead you somewhere safe\n\n",
+    "desc": "You are in a building called 'Jubilat', it looks like it used to be some kind of warehouse. Everyone here is wearing a uniform, with name badge, which is pretty useful. There are also some families, sitting around the corridor. They are talking, singing, some of them are crying. It is clear that everyone here lost something. Two people look approachable here one with name badge 'Dariusz' and another one apparently called 'Damian'",
+    "unlocks": "From here you can go to the Old Market and Wawel Castle",
+    "go_to": ["wawel", "market"],
+    "talk_to": ["dariusz", "damian"],
+    "items": null
+  },
+  "cave": {
+    "intro": null,
+    "desc": "The entrance to the cave is blocked by a brick wall. You clearly feel the magic used to enforce it.",
+    "unlocks": "As you approach the cave you can feel the sword vibrating. \n\n Loki grabbed the sword and hit the wall with it, wall collapsed and unveiled the inside. It smells of sulfur and corpses. This is definitely where Veles is hiding.",
+    "go_to": ["wawel"],
+    "talk_to": null,
+    "items": null
+  },
+  "market": {
+    "intro": "As Loki arrived at the Old Market, he can see how much the revolution destroyed the city. The beautiful buildings surrounding the plaza are now covered in graffities and blood. Soldiers in 'cross uniforms' are marching around demonstrating their power.",
+    "desc": "In the middle of the plaza, right next to a church, with a tall tower is the Cloth Hall, from here you can also go to the University and Gallery Cracow.",
+    "unlocks": null,
+    "go_to": ["gallery", "university", "hall", "wawel"],
+    "talk_to": null,
+    "items": null
+  },
+  "hall": {
+    "intro": "One a beautiful hall, now it is a ruin. In the middle there is a long tunnel.",
+    "desc": "On both sides of the tunnel there are 3 pillars (6 in total). On top of each pillar is a crest representing the most important cities in Poland. On the left side there are crests of Kolobrzeg, Warsaw and Gniezno, on the right side there are crests of Gdynia, Sopot and Lodz. You can walk up to each crest to inspect it from up close.",
+    "unlocks": "To solve the puzzle, walk up to the crest you think it is and type the word.",
+    "go_to": ["market", "gdynia", "sopot", "kolobrzeg", "gniezno", "warsaw", "lodz"],
+    "talk_to": null,
+    "items": null
+  },
+  "gdynia": {
+    "intro": null,
+    "desc": "In the crest you can see two fish stuck on a big sword",
+    "unlocks": null,
+    "go_to": ["hall"],
+    "talk_to": null,
+    "items": null
+  },
+  "sopot": {
+    "intro": null,
+    "desc": "In the crest you can see a seagull eating a fish",
+    "unlocks": null,
+    "go_to": ["hall"],
+    "talk_to": null,
+    "items": null
+  },
+  "kolobrzeg": {
+    "intro": null,
+    "desc": "It is quite a complex crest, there are two swans, some kind of a castle and sea",
+    "unlocks": null,
+    "go_to": ["hall"],
+    "talk_to": null,
+    "items": null
+  },
+  "gniezno": {
+    "intro": null,
+    "desc": "It is similar to the polish emblem, in it, it has a white eagle looking to the right, the crest has a golden crown on top",
+    "unlocks": null,
+    "go_to": ["hall"],
+    "talk_to": null,
+    "items": null
+  },
+  "warsaw": {
+    "intro": null,
+    "desc": "In this crest you can see a siren holding a small sword and a shield, too small for you though",
+    "unlocks": null,
+    "go_to": ["hall"],
+    "talk_to": null,
+    "items": null
+  },
+  "lodz": {
+    "intro": null,
+    "desc": "In this crest you can see a yellow boat",
+    "unlocks": null,
+    "go_to": ["hall"],
+    "talk_to": null,
+    "items": null
+  },
+  "university": {
+    "intro": "Loki approached the university building. It is the oldest university in the whole europe and it doesn't deserve the state it is in right now. It looks abandoned, but he can see light in a few windows. As he walked in he saw an old men sitting right beside a bonfire. He is using books from the library to keep it lit and Loki could see that with each burned page he is getting worse and worse. The man is wearing a torn suite, he probably used to teach here. Madness was visible in his eyes. There are also some students gathered around, minding their own business",
+    "desc": "You can talk to the mad man by the bonfire, students, or go back to the market",
+    "unlocks": null,
+    "go_to": ["market"],
+    "talk_to": ["professor", "student"],
+    "items": null
+  },
+  "gallery": {
+    "intro": "'Gallery Cracow' says the big red sign above the entrance. The place that used to be where people come and hang out, get their groceries, get something to eat, now is a base of some kind of fraction. Everywhere are patriotic symbols, polish flags and graffities with the symbol of the local sports team. 'That's quite unusual...' commented Loki",
+    "desc": "You are in front of the Gallery. There are two buffed guards wearing patriotic jumpers in front. You can talk to them.",
+    "unlocks": "Guards were laughing at the miserable Lokis human form, but when they saw the Fish Sword he had with him they instantly went completely serious. They led Loki to their leader. The leader immediately recognized the sword. He told Loki about the legend of dragon from under the Wawel Castle. It might be a good place to find the next clue.",
+    "go_to": ["market"],
+    "talk_to": ["guard"],
+    "items": null
+  },
+  "underworld_0": {
+    "intro": "Loki walks further into the cave. The smell of sulfur and burned bodies is getting stronger and stronger. Suddenly, in a blink of an eye, walls disappear, the ground change and celling move further up. The whole thing transformed into some kind of plane. Loki can still hear sounds of battle, but now they come from above. \n\n'Incredible, this must have been some kind of teleport' said Loki to himself. \n\nFrom the celling bodies are slowly falling to the ground. These are the souls of people fallen during the battle of Wawel. After they hit the ground they sink into it. Some of them are still trying to fight for their life, not knowing that they are already dead. \nOne of them fell right beside Loki and dropped burned piece of paper.\nDo you want to take it?\n",
+    "desc": "You can go three ways - try and get through the Field where dead are falling and sink into the underworld, there is something that looks like forrest of spiky rocks to your left, you can also jump into the rift that appeared right to your right.",
+    "unlocks": null,
+    "go_to": null,
+    "talk_to": null,
+    "items": ["clues"]
+  },
+  "underworld_1": {
+    "intro": "As Loki stepped onto the quicksand field his legs begun to sink. This continued until his head was completely submerged. He didn't suffocate though. Loki started to see again. He was in a dark room. Everything was reversed and Loki seemed to stand on the celling. As he made the first step forward, five runes lit up on the door in front of him and a piece of cloth appeared. Runes meaning (in order):\n\n- Warrior\n- Justice\n- Life\n- Evil\n- Beginning\n\nThere is a paint brush and a vessel with something that looks like old blood right beside the door. Apparently you need to give the password. What is the password?",
+    "desc": null,
+    "unlocks": null,
+    "go_to": null,
+    "talk_to": null,
+    "items": null
+  },
+  "underworld_2": {
+    "intro": "Just when Loki finished the last letter a loud sound of unlocking mechanism tumbled through the room he was in and the door opened. In the next room was something even worse than corpse falling from the sky. A cradle with blood stains all over it. \n\n'Seems like I found the stole child'\n\n As Loki came closer he was sure. It's the child he was looking for. However, as he leaned to pick it up, the child started to change. Long teeth, and claws started to appear and infant immediately went for Lokis neck. Luckily, Loki grabbed the demon by the neck.",
+    "desc": "Do you want to Kill the child or Calm it?",
+    "unlocks": "Loki quickly snapped the demons neck. There was nothing he could do. It was either him or well... 'It'. When Loki did it the sound of demonic scream filled the room. It was horrible and loud enough that walls started to break and crumble. Our hero hid his face in his hands trying to shield himself from pieces of falling rocks.",
+    "go_to": null,
+    "talk_to": null,
+    "items": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "jail_priest": {
+    "desc": "This is a conversation between a priest and the Traveller, that is locked in a cell. The priest very rude and will say anything to make the Traveller feel bad.\n\nTraveller: Hi\nPriest: Ha! Hello you infidel scum. How are you feeling? I hope bad.\n\n",
+    "start_seq": "\nPriest:",
+    "first_lines": ["Traveller: Hi!", "Priest: Ha! Hello you infidel scum. How are you feeling? I hope bad."],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\nThose priests...\n", "\nThose priests...\n"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Priest:"]
+    }
+  },
+  "jail_guard": {
+    "desc": "This is a conversation between a jail guard and the Traveller that is a prisoner. The Traveller doesn't know what is going on, the guard will explain that people of Poland had enough of their corrupted government and started to fight against it, very violently. That is why there are a few fractions in town. The first is Holy Police, it's those guys with crosses on their uniforms. There is also the resistance and hooligans of christ. They are all fighting each other. This is how the conversation went:\n\nTraveller: Hi\nGuard: Hello, my friend. I can't get you anything but maybe I can explain.\n\n",
+    "start_seq": "\nGuard:",
+    "first_lines": ["Traveller: Hi!", "Guard: Hello, my friend. I can't get you anything but maybe I can explain."],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\nOne of the nicest guards I've met...\n", "\nOne of the nicest guards I've met...\n"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Guard:"]
+    }
+  },
+  "angel": {
+    "desc": "This is a conversation between an angel and the Traveller. The angel is amused by the fact that the Traveller is stuck in jail. Loki is the god of lies after all. Angel is willing to help Loki escape, but only if Loki agrees. If the Traveller agrees, the Angel will say 'let's break the chains'\n\nTraveller: What are you laughing at?\nAngel: Why so angry? I though you're the god of mischief, not the god of chains\n\n",
+    "start_seq": "\nAngel:",
+    "first_lines": ["Traveller: What are you laughing at?", "Angel: Why so angry? I though you're the god of mischief, not the god of chains"],
+    "triggers": ["let's break the chains", "i'm going"],
+    "finishers": ["\nAs the Angel said those words someone attacked the Wawel castle. Some people in guerrilla uniforms pured into the room with guns blazing, but before they noticed Loki, the Angel teleported him to the front of the castle.\n", "\nI hate those guys...\n"],
+    "ai_vars": {
+      "temp": 0.8,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.8,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Angel:"]
+    }
+  },
+  "daniel": {
+    "desc": "This is a conversation between a guerrilla fighter named Daniel and the Traveller that just ended up in guerrilla headquarters. The Traveller doesn't know what is going on, Daniel will explain that people of Poland had enough of their corrupted government and started to fight against it, very violently. That is why there are a few fractions in town. The first is Holy Police, it's those guys with crosses on their uniforms. There is also the resistance and hooligans of christ. They are all fighting each other. This is how the conversation went:\n\nTraveller: Hi\nDaniel: Hello, my friend. I can't get you anything but maybe I can explain.\n\n",
+    "start_seq": "\nDaniel:",
+    "first_lines": ["Traveller: Hi!", "Daniel: Hello, my friend. I can't get you anything but maybe I can explain."],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\n'Wish I could help, but it's I have my own mission'\n", "\n'Wish I could help, but it's I have my own mission'\n"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Daniel:"]
+    }
+  },
+  "damian": {
+    "desc": "This is a conversation between a guerrilla fighter Damian and the Traveller. Damian is very keen on attacking the Wawel Castle. It's the headquarters of the Holy Police. Damian has got the army of men that are willing to fight and will insist that the Traveller will join him. If Traveller agrees he will say 'let's get ready'\n\nTraveller: Damian, right?\nDamian: Yup, wanna join the attack?\n\n",
+    "start_seq": "\nDamian:",
+    "first_lines": ["Traveller: Damian, right?", "Damian: Yup, wanna join the attack?"],
+    "triggers": ["let's get ready", "i'm going"],
+    "finishers": ["\nLoki joined Damian and his army. The very same night they marched to the Wawel Castle.\n", "\n'Interesting guy...'\n"],
+    "ai_vars": {
+      "temp": 0.8,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.8,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Damian:"]
+    }
+  },
+  "professor": {
+    "desc": "This is a conversation between an old university professor and the Traveller. The professor is went mad and doesn't remember much. The professor will say the story about Cloth Hall and a weapon hidden there. It is very important to the professor. After telling the story he will say 'have this, please'.\n\nTraveller: Are you alright?\nProfessor: So much knowledge wasted...\n\n",
+    "start_seq": "\nProfessor:",
+    "first_lines": ["Traveller: Are you alright?", "Professor: So much knowledge wasted..."],
+    "triggers": ["have this, please", "i'm going"],
+    "finishers": ["\nHe shows you something that looks like a riddle\n", "\n'Interesting guy...'\n"],
+    "ai_vars": {
+      "temp": 0.8,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.8,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Professor:"]
+    }
+  },
+  "student": {
+    "desc": "This is a conversation between a university student and the Traveller. Student is sitting with his friends and they sing some songs. The town they live in is destroyed, but they try to stay positive. Here is how the conversation went:\n\nTraveller: Hi\nStudent: Hello, my friend.\n\n",
+    "start_seq": "\nStudent:",
+    "first_lines": ["Traveller: Hi!", "Student: Hello, my friend."],
+    "triggers": ["i'm going", "i'm going"],
+    "finishers": ["\nApparently he hand nothing interesting to say\n", "\nApparently he hand nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Student:"]
+    }
+  },
+  "gallery_guard": {
+    "desc": "This is a conversation between the fighter of fraction called the Hooligans of Christ and the Traveller. The fighter is guarding the entrance to headquarters of their fraction and will not let the Traveller walk in under any circumstance. If guard will get annoyed he will say 'get out or I will break you'. This is how the conversation went:\n\nTraveller: Hi\nGuard: You cannot enter. Go away.\n\n",
+    "start_seq": "\nGuard:",
+    "first_lines": ["Traveller: Hi!", "Guard: You cannot enter, go away."],
+    "triggers": ["get out or I will break you", "i'm going"],
+    "finishers": ["\nThe guard is way bigger than Loki, no way he is going to win this fight\n", "\nApparently he hand nothing interesting to say\n"],
+    "ai_vars": {
+      "temp": 1,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.7,
+      "pres_pen": 0.0,
+      "stop": ["\n", " Traveller:", " Guard:"]
+    }
+  }
+}

@@ -5,7 +5,7 @@
     "start_seq": "\nDrunk Guy:",
     "first_lines": ["Traveller: Who are you?", "Drunk Guy: My name is Matia, what do you want?"],
     "triggers": ["i'm going", "i don't want to talk to you"],
-    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say", "\nYou left him as he is, apparently he had nothing interesting to say"],
+    "finishers": ["\nYou left him as he is, apparently he had nothing interesting to say\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
     "ai_vars": {
       "temp": 0.7,
       "max_tok": 150,
@@ -20,7 +20,7 @@
     "start_seq": "\nDrunk Guy:",
     "first_lines": ["Traveller: Hello, Matia. Are you okay?", "Drunk Guy: I had an incredible dream!"],
     "triggers": ["cellar", "i'm going"],
-    "finishers": ["\nNow you know where Bacchus hides, are you ready to face him?", "\nYou left him as he is, apparently he had nothing interesting to say"],
+    "finishers": ["\nNow you know where Bacchus hides, are you ready to face him?\n", "\nYou left him as he is, apparently he had nothing interesting to say\n"],
     "ai_vars": {
       "temp": 0.5,
       "max_tok": 150,
@@ -35,7 +35,7 @@
     "start_seq": "\nLorenzo:",
     "first_lines": ["Traveller: I heard your name, is it Lorenzo?", "Lorenzo: Yes it is, Traveller. Would you like to hear a story?"],
     "triggers": ["i'm going", "thank you"],
-    "finishers": ["\nHis stories are fun, although you have more important things to take care of", "\nHis stories are fun, although you have more important things to take care of"],
+    "finishers": ["\nHis stories are fun, although you have more important things to take care of\n", "\nHis stories are fun, although you have more important things to take care of\n"],
     "ai_vars": {
       "temp": 1,
       "max_tok": 500,
@@ -50,7 +50,7 @@
     "start_seq": "\nBartender:",
     "first_lines": ["Traveller: Hi", "Bartender: Welcome to our pub. How can I help you?"],
     "triggers": ["i'm going", "thank you"],
-    "finishers": ["\nHm... those bartenders...", "\nHm... those bartenders"],
+    "finishers": ["\nHm... those bartenders...\n", "\nHm... those bartenders\n"],
     "ai_vars": {
       "temp": 0.7,
       "max_tok": 150,
@@ -65,7 +65,7 @@
     "start_seq": "\nBartender:",
     "first_lines": ["Traveller: Take me to Bacchus, now!", "Bartender: I don't know what are you talking about, leave now!"],
     "triggers": ["forgive me, master", "i'm going"],
-    "finishers": ["\nThe bartender grabs a dusty bottle of wine. It turns out to be a lever. A hidden door opens, you can walk into the cellar and meet Bacchus himself", "\nHm... those bartenders"],
+    "finishers": ["\nThe bartender grabs a dusty bottle of wine. It turns out to be a lever. A hidden door opens, you can walk into the cellar and meet Bacchus himself\n", "\nHm... those bartenders\n"],
     "ai_vars": {
       "temp": 0.8,
       "max_tok": 150,
@@ -80,7 +80,7 @@
     "start_seq": "\nPost Worker:",
     "first_lines": ["Traveller: Hi!", "Post Worker: Hello, sir! Can I help you?"],
     "triggers": ["may the god be with you", "i'm going"],
-    "finishers": ["\nThe office worker pulls out the letter and hands it to you", "\nHm... Strange"],
+    "finishers": ["\nThe office worker pulls out the letter and hands it to you\n", "\nHm... Strange\n"],
     "ai_vars": {
       "temp": 0.5,
       "max_tok": 150,
@@ -95,7 +95,7 @@
     "start_seq": "\nOld Lady:",
     "first_lines": ["Traveller: Hi!", "Old Lady: Hello, handsome!"],
     "triggers": ["i'm going", "i'm going"],
-    "finishers": ["\nJust a simple old lady", "\nJust a simple old lady"],
+    "finishers": ["\nJust a simple old lady\n", "\nJust a simple old lady\n"],
     "ai_vars": {
       "temp": 1,
       "max_tok": 150,
@@ -110,7 +110,7 @@
     "start_seq": "\nLocal:",
     "first_lines": ["Traveller: Hi!", "Local: Hello, how are you?"],
     "triggers": ["i'm going", "i'm going"],
-    "finishers": ["\nWhat a nice person", "\nWhat a nice person"],
+    "finishers": ["\nWhat a nice person\n", "\nWhat a nice person\n"],
     "ai_vars": {
       "temp": 1,
       "max_tok": 150,

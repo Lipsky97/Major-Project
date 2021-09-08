@@ -4,12 +4,12 @@ import json
 api_key = ""
 
 
-def chat_bot(npc_name):
+def chat_bot(npc_name, location):
     # Start sequences, the chat bot is programmed with the "prompt", that is extended with each sentence, this is
     # specific to the transformer architecture, instead of sending queries one by one each human/AI response is
     # appended to give the AI context for the next answer
 
-    with open('game_files/characters/staiti.json') as chars:
+    with open('game_files/characters/' + location + '.json') as chars:
         characters = json.load(chars)
 
     openai.api_key = api_key
@@ -60,4 +60,4 @@ def chat_bot(npc_name):
                 return True
             prompt += text + "\n"
         else:
-            print("I have no answer for that")
+            print("I have no answer to that")

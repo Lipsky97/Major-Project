@@ -1,0 +1,17 @@
+{
+  "puzzle": {
+    "name": "Cloth Hall Puzzle",
+    "on_pick_up": "You get a piece of paper with text on it, font is small and uneven as if it was written by a mad man\n\n'Right in the middle, nearby the great tower,\nLies a hall, long past the time of its power,\nIn that hall, where the line of crests begin,\nHangs a weapon, with a great power within,\nTo posses its power just say the word,\nSay 'zagovory' and you will conquer the world.'\n\n",
+    "inspect": "\n\n'Right in the middle, nearby the great tower,\nLies a hall, long past the time of its power,\nIn that hall, where the line of crests begin,\nHangs a weapon, with a great power within,\nTo posses its power just say the word,\nSay 'zagovory' and you will conquer the world.'\n\n"
+  },
+  "sword": {
+    "name": "The Fish Sword",
+    "on_pick_up": "It worked! You get the Fish Sword. It is beautiful, with handle covered in jewels and the blade long and shiny almost as it has been made of silver. It is much tougher tough. It can be helpful with defeating Veles.",
+    "inspect": "It is beautiful, with handle covered in jewels and the blade long and shiny almost as it has been made of silver. It is much tougher tough."
+  },
+  "clues": {
+    "name": "Card with Clues",
+    "on_pick_up": "You pick up the burned piece of paper. On it you can see something that looks like clues on how to get to Veles. Use it wisely. \n\n- His footsteps disappear in the soil as it was alive\n- Runes/Letters:\n   * WORLD/'M'\n   *Evil/'C'\n   *Beginning/'A'\n   *Joy/'R'\n   *Destiny/'N'\n   *Truth/'K'\n   *Warrior/'T'\n   *Strength/'S'\n   *Knowledge/'V'\n   *Earth/'B'\n   *Love/'U'\n   *Water/'L'\n   *Spirit/'X'\n   *Motherland/'O'\n   *Good/'D'\n   *Justice/'P'\n   *Life/'E'\n   *Ice/'I'\n\n- Leave all your humanity/beware of the demon",
+    "inspect": "\n\n- His footsteps disappear in the soil like it was alive\n- Runes/Letters:\n   * WORLD/'M'\n   *Evil/'C'\n   *Beginning/'A'\n   *Joy/'R'\n   *Destiny/'N'\n   *Truth/'K'\n   *Warrior/'T'\n   *Strength/'S'\n   *Knowledge/'V'\n   *Earth/'B'\n   *Love/'U'\n   *Water/'L'\n   *Spirit/'X'\n   *Motherland/'O'\n   *Good/'D'\n   *Justice/'P'\n   *Life/'E'\n   *Ice/'I'\n\n- Leave all your humanity/beware of the demon\n"
+  }
+}

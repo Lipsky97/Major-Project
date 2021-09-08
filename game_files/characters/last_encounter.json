@@ -1,0 +1,17 @@
+{
+  "angel": {
+    "desc": "This is a conversation between Loki the god of lies and an angel. Angel saved Lokis life by using angel feathers power to heal him. They are in heaven now, but Loki is alive. Angel tells Loki that he can earn more feathers by killing more gods for him. Angel insists for Loki to agree. If Loki agrees the angel will say 'may the god be with you'. If Loki refuses to work for the angel he will say 'goodbye'.\n\nTraveller: What happened?\n Angel: I healed you with the feathers you've earned during your missions. They are all gone.\n\n",
+    "start_seq": "\nAngel:",
+    "first_lines": ["Traveller: Who are you?", "Angel: I healed you with the feathers you've earned during your missions. They are all gone."],
+    "triggers": ["may the god be with you", "goodbye"],
+    "finishers": ["\nAngel snapped his fingers and Loki woke up back in his villa. On the coffee table is a new letter...\n", "\nEverything dissapears, together with Loki, he doesn't exist anymore.\n"],
+    "ai_vars": {
+      "temp": 0.5,
+      "max_tok": 150,
+      "top_p": 1,
+      "freq_pen": 0.1,
+      "pres_pen": 0.5,
+      "stop": ["\n", " Traveller:", " Angel:"]
+    }
+  }
+}

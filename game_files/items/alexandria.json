@@ -1,0 +1,22 @@
+{
+  "rogers": {
+    "name": "Rogers the Kitten",
+    "on_pick_up": "You were not able to leave the kitten in the sewers, so you take him with you. You are not sure what name to give it, after some thought Loki comes to conclusion that the kitten is so sweet, adorable and helpless he will call him Rogers.",
+    "inspect": "His fur is soft and he purrs loudly. There is a shiny bow on his neck, just like one would put on a birthday present"
+  },
+  "liquid_moon": {
+    "name": "Liquid Moon",
+    "on_pick_up": "You get a bottle of shiny liquid. 'Looks quite useful' thought Loki.",
+    "inspect": "A small round bottle of unknown origin, it is full of shiny liquid"
+  },
+  "book": {
+    "name": "Moonlight",
+    "on_pick_up": "You pick up a book. There is a large moon on its cover. When you open it you find a large sticker that says \n\n'Property of the Alexandrian Library 2020'\n\n'Worth checking out' says Loki.",
+    "inspect": "Book from Alexandrian Library. It's titled 'Moonlight'"
+  },
+  "embalming_oils": {
+    "name": "Bottle of Embalming Oils",
+    "on_pick_up": "You get a bottle of embalming oils, Loki is using them as quick as he can. When he noticed shocked stares pointed at him he said 'I need to be ready anytime'",
+    "inspect": "A small bottle of embalming oils"
+  }
+}

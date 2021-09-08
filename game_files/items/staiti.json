@@ -20,7 +20,8 @@
     "inspect": "Painting showing an archangel wielding a shield. It is a hassle to drag it with you around the town, but hey, maybe it will help?"
   },
   "letter": {
+    "name": "Letter from an Angel",
     "on_pick_up": "You pick up the letter. It reads:\nDear Traveller,\nI hope you like the Staiti, we have many faithful followers there.\nOne of them left a little present for you at the Cemetery. Remember\nthat offence is not everything during war, think about the defence\nas well.\n\nBe good,\nA.",
-    "inspect": "Dear Traveller,\nI hope you like the Staiti, we have many faithful followers there.\nOne of them left a little present for you at the Cemetery. Remember\nthat offence is not everything during war, think about the defence\nas well.\n\nBe good,\nA."
+    "inspect": "Dear Traveller,\nI hope you like Staiti, we have many faithful followers there.\nOne of them left a little present for you at the Cemetery. Remember\nthat offence is not everything during war, think about the defence\nas well.\n\nBe good,\nA."
   }
 }

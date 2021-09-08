@@ -1,0 +1,3 @@
+{
+  "how_to_play": "- NPCs are powered by AI that can understand your intentions, don't be afraid to experiment a bit!\n- You can end any conversation by typing 'i'm going'\n- While playing a level you can go to different area by typing 'go <name_of_the_area>' eg. 'go to pub'\n- To talk to NPCs simpy type 'talk <name_of_NPC>' eg. 'talk to priest>'. In some locations you can talk to people that don't have any name. In that case try 'talk to person/pedestrian'\n- If you want to pick up an object and add it to your inventory type 'take <object>' eg. 'take painting'. Not every item is useful.\n- You can quit the game anytime by typing 'quit'. Your progress will be saved."
+}
